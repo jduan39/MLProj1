@@ -95,7 +95,7 @@ X_train, X_test, y_train, y_test = train_test_split(x,y,test_size=0.2)
 
 
 
-
+# ADABOOST
 # ab = open('titanicAB.csv', 'w')
 # ab.write('estimators' + ', ' + 'CV_SCORE' + ', ' + 'TRAIN_SCORE' + ', ' + 'TEST_SCORE\n')
 # for estimator in range(100):
