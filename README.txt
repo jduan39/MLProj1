@@ -2,7 +2,7 @@
 Machine Learning Project 1
 
 
-Requirements: Pandas, sklearn, numpy, python 3.6, scipy
+Requirements: Pandas, sci-kit learn, numpy, python 3.6, scipy
 
 Files to run: titanic.py, second.py
 
