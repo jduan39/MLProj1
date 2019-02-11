@@ -1,6 +1,8 @@
 # MLProj1
 Machine Learning Project 1
 
+GITHUB LINK: https://github.com/jduan39/MLProj1
+
 
 Requirements: Pandas, sci-kit learn, numpy, python 3.6, scipy
 
