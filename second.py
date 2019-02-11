@@ -17,7 +17,7 @@ from sklearn.model_selection import train_test_split
 
 
 
-df = pd.read_csv('/Users/justinduan/Documents/MLProj1/inpatientCharges.csv')
+df = pd.read_csv('inpatientCharges.csv')
 df = df.drop(['Provider Id', 'Provider Name', 'Provider Street Address', 'Provider Zip Code', 'Hospital Referral Region Description'
               , ' Total Discharges ', ' Average Covered Charges ', 'Average Medicare Payments'], axis=1)
 df = df.iloc[0:8000]
