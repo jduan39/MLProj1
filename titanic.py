@@ -39,7 +39,7 @@ x = processed.drop(['Survived'], axis=1).values
 y = processed['Survived'].values
 X_train, X_test, y_train, y_test = train_test_split(x,y,test_size=0.2)
 
-
+# DECISION TREE
 # dt = open('titanicDT.csv', 'w')
 # dt.write('depth' + ', ' + 'CV_SCORE' + ', ' + 'TRAIN_SCORE' + ', ' + 'TEST_SCORE\n')
 # for depth in range(100):
@@ -49,6 +49,7 @@ X_train, X_test, y_train, y_test = train_test_split(x,y,test_size=0.2)
 #     dt.write(str(model.score(X_train, y_train)) + ', ')
 #     dt.write(str(model.score(X_test, y_test)) + '\n')
 
+# LEARNING CURVES, SUB OUT MODEL WITH THE DIFFERENT SUPERVISED LEARNING ALGOS TO COMPARE INPUT SIZE
 # inputsize = preprocess_titanic_df(df)
 # model = KNeighborsClassifier(n_neighbors=23)
 # for i in range(7):
@@ -87,7 +88,7 @@ X_train, X_test, y_train, y_test = train_test_split(x,y,test_size=0.2)
 
 
 
-
+# ADABOOST
 # ab = open('titanicAB.csv', 'w')
 # ab.write('estimators' + ', ' + 'CV_SCORE' + ', ' + 'TRAIN_SCORE' + ', ' + 'TEST_SCORE\n')
 # for estimator in range(100):
